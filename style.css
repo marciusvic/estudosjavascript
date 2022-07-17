@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(36deg, rgb(97, 86, 253) 0%, rgb(76, 0, 218) 32%, rgb(97, 86, 253) 100%);
+    font: normal 15pt Arial;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.header-nav-tittle{
+    font-size: 55px;
+    color: white;
+    padding-top: 25px;
+    padding-left: 120px;
+    padding-bottom: 2px;
+}
+
+
+.header-nav-subtitle{
+    font-size: 18px;
+    color: white;
+    padding-top: 0px;
+    padding-left: 120px;
+    padding-bottom: 7px;
+}
+
+.header-nav-redes-sociais a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+.devicon-github-original{
+    padding-left: 120px;
+}
+
+.main-ul{
+    margin: 40px;
+    padding-left: 50px;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+}
+
+.main-ul-list-item{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.main-ul-list-item-content{
+    padding-bottom: 40px;
+    font-size: 29px;
+}
+.main-ul-list-item-content a{
+    text-decoration: underline;
+    color: #007aaa;
+}
