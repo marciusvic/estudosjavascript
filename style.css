@@ -8,15 +8,17 @@
 header{
     background: linear-gradient(36deg, rgb(97, 86, 253) 0%, rgb(76, 0, 218) 32%, rgb(97, 86, 253) 100%);
     font: normal 15pt Arial;
-    text-align: left;
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-bottom: 20px;
+    padding-left: 50px ;
 }
 
 .header-nav-tittle{
     font-size: 55px;
     color: white;
     padding-top: 25px;
-    padding-left: 120px;
     padding-bottom: 2px;
 }
 
@@ -25,7 +27,6 @@ header{
     font-size: 18px;
     color: white;
     padding-top: 0px;
-    padding-left: 120px;
     padding-bottom: 7px;
 }
 
@@ -35,8 +36,8 @@ header{
     font-size: 35px;
 }
 
-.devicon-github-original{
-    padding-left: 120px;
+.devicon-linkedin-plain{
+    padding-left: 4px;
 }
 
 .main-ul{
