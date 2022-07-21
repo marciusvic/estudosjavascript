@@ -1,50 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    <title>Pagina Principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <title>Potifólio | Márcio Victor</title>
 </head>
+
 <body>
     <header>
-        <nav class="header-nav">
-            <h1 class="header-nav-tittle">Pequenos Projetos</h1>
-            <h2 class="header-nav-subtitle">Feito por Marcio Victor</h2>
-            <div class="header-nav-redes-sociais">
-                <a href="https://github.com/marciusvic" target="_blank">
-                <i class="devicon-github-original"></i></a>
-
-                <a href="https://www.linkedin.com/in/m%C3%A1rcio-victor-723705231" target="_blank">
-                <i class="devicon-linkedin-plain"></i></a>
-
-            </div>
+        <nav class="cabecalho">
+            <img src="site.png" class="cabecalho-imagem">
+            <ul class="cabecalho-menu">
+                <li><strong><a href="#sobre-mim">Sobre</a></strong></li>
+                <li><strong><a href="#projetos">Projetos</a></strong></li>
+                <li><strong><a href="#contato">Contato</a></strong></li>
+            </ul>
         </nav>
     </header>
-
+    <hr>
     <main>
-            <ul class="main-ul">
-                <li class="main-ul-list-item"><strong>Calculadora</strong></li>
-                <div class="main-ul-list-item-content">
-                    <p>Um projeto de uma calculadora que faz cálculos simples: <a href="Calculadora/index.html" target="_blank">Calculadora</a></p>
+        <section id="sobre-mim">
+            <div class="apresentacao">
+                <h1 class="apresentacao-texto1"><strong>Olá, eu sou Márcio Victor</strong></h1>
+                <h2 class="apresentacao-texto2">Desenvolvedor Front-end</h2>
+            </div>
+        </section>
+        <section id="projetos">
+            <div class="portifolio">
+                <p class="portifolio-titulo"><strong>Aqui está alguns dos meus projetos</strong></p>
+                <div class="portifolio-container">
+                    <a href="Calculadora/index.html" target="_blank"><div class="portifolio-container-item"></div></a>
+                    <a href="Hora Dinâmica/index.html" target="_blank"><div class="portifolio-container-item"></div></a>
+                    <a href="Jogo advinhar/index.html" target="_blank"><div class="portifolio-container-item"></div></a>
                 </div>
-                <li class="main-ul-list-item"><strong>Hora Dinâmica</strong></li>
-                <div class="main-ul-list-item-content">
-                    <p>Um projeto simples que: mostra a hora, muda de cor e mostra uma imagem (Dia/Tarde/noite) dinamicamente: <a href="Hora Dinâmica/index.html" target="_blank">Hora Dinâmica</a></p>
-                </div>
-                <li class="main-ul-list-item"><strong>Conversor</strong></li>
-                <div class="main-ul-list-item-content">
-                    <p>Um projeto que converte Real para Dolar (valores fictícios): <a href="Conversor/index.html" target="_blank">Conversor</a></p>
-                </div>
-                <li class="main-ul-list-item"><strong>Jogo de Advinhar</strong></li>
-                <div class="main-ul-list-item-content">
-                    <p>Um jogo para advinhar um número (com dicas): <a href="Jogo advinhar/index.html" target="_blank">Advinhar</a></p>
-                </div>
-            </ul>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contate-me"><h2>Vamos trabalhar juntos</h2>
+                <!--colocar devicon linkedin e github--></div>
+        </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer>
+
+    </footer>
+    
 </body>
 </html>
