@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     padding: 8px;
     height: 60px;
+    width: 100vw;
 }
 
 .cabecalho-imagem{
@@ -51,6 +52,7 @@ hr{
     background-color: #000000;
     border: none;
     height: 4px;
+    width: 100vw;
 }
 
 .apresentacao{
@@ -118,7 +120,7 @@ hr{
 .contato{
     background-color: #232325;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
 }
 
 .contate-me{
