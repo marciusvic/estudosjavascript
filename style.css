@@ -46,6 +46,7 @@ body{
 
 .cabecalho-menu a:hover{
     font-size: 28px;
+    transition: 0.5s;
 }
 
 hr{
@@ -96,7 +97,6 @@ hr{
     font-size: 50px;
     text-align: center;
     padding: 15px;
-    text-decoration: underline;
 }
 
 .portifolio-container{
@@ -111,23 +111,28 @@ hr{
 }
 
 .portifolio-container-item{
-    background-color: rgb(255, 255, 255);
-    padding: 120px;
+    background-color: #232325;
+    padding: 15px;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
 }
 
-@media only screen and (max-width: 600px) {
-    .portifolio-titulo{
-        font-size: 40px;
-    }
-    .portifolio-container{
+.portifolio-container-item-imagem{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+.portifolio-container-titulo{
+    display: flex;
     flex-direction: column;
-    gap: 50px;
-    }
-    .portifolio-container-item{
-        padding: 80px;
-    }
+    justify-content: center;
+    align-items: center;
+}
+
+.portifolio-titulo-do-projeto{
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .contato{
@@ -139,12 +144,68 @@ hr{
 .contate-me{
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     padding: 15px;
-    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
 }
 
 a:hover{
     cursor: pointer;
+}
+
+.contate-me-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    gap: 40px;
+}
+
+.contate-me-redes a:hover{
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.contate-me-redes a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .portifolio-titulo{
+        font-size: 40px;
+    }
+    .portifolio-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .portifolio-container-item{
+        padding: 10px;
+    }
+    .portifolio-container-item-imagem{
+        width: 150px;
+        height: 150px;
+        border-radius: 10%;
+    }
+    .portifolio-titulo-do-projeto{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .contate-me{
+        font-size: 25px;
+        gap: 35px;
+    }
+    .contate-me-redes a{
+        font-size: 20px;
+    }
+    .contate-me-redes{
+        gap: 30px;
+    }
 }
