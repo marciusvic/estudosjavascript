@@ -117,10 +117,21 @@ hr{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
 }
 
+.portifolio-container-item:hover{
+    padding: 25px;
+    transition: 0.5s;
+}
+
 .portifolio-container-item-imagem{
     width: 500px;
     height: 500px;
     border-radius: 10%;
+}
+
+.portifolio-container-item-imagem:hover{
+    width: 550px;
+    height: 550px;
+    transition: 0.5s;
 }
 
 .portifolio-container-titulo{
