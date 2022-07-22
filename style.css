@@ -100,7 +100,7 @@ hr{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     align-content: center;
