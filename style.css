@@ -117,6 +117,19 @@ hr{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
 }
 
+@media only screen and (max-width: 600px) {
+    .portifolio-titulo{
+        font-size: 40px;
+    }
+    .portifolio-container{
+    flex-direction: column;
+    gap: 50px;
+    }
+    .portifolio-container-item{
+        padding: 80px;
+    }
+}
+
 .contato{
     background-color: #232325;
     width: 100vw;
