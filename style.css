@@ -100,7 +100,7 @@ hr{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 75px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -114,8 +114,8 @@ hr{
 }
 
 .portifolio-container-item-imagem{
-    width: 500px;
-    height: 500px;
+    width: 340px;
+    height: 340px;
     border-radius: 10%;
 }
 
@@ -180,8 +180,8 @@ a:hover{
     }
     
     .portifolio-container-item-imagem:hover{
-        width: 550px;
-        height: 550px;
+        width: 400px;
+        height: 400px;
         transition: 0.5s;
     }
 
