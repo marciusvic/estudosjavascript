@@ -42,6 +42,7 @@ body{
     font-weight: 400;
     color: var(--main-white);
     margin: auto;
+    transition: 0.5s;
 }
 
 
@@ -111,12 +112,14 @@ hr{
     padding: 15px;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    transition: 0.5s;
 }
 
 .portifolio-container-item-imagem{
     width: 340px;
     height: 340px;
     border-radius: 10%;
+    transition: 0.5s;
 }
 
 .portifolio-container-titulo{
@@ -167,6 +170,7 @@ a:hover{
     text-decoration: none;
     color: white;
     font-size: 25px;
+    transition: 0.5s;
 }
 @media only screen and (min-width: 600px) {
     .cabecalho-menu a:hover{
